@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#abody {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+
+#header {
+    width: 1500px;
+    height: 210px;
+}
+#set {
+    width: 270px;
+    height: 30px;
+    text-align : right;
+    float: right;
+}
+#set li {
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+#log {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 75px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+#my_page { 
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+#setting {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 85px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+#logo {
+    width: 1500px;
+    height: 100px;
+    float: left;
+}
+#logo > div {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+}
+#head_menu {
+    width: 1500px;
+    height: 40px;
+    float: left;
+    margin: 20px 0;
+}
+#menu {
+    width: 800px;
+    height: 40px;
+    margin: 0 auto;
+}
+#menu li {
+    width: 200px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16pt;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+#menu li:active {
+    background-color: black;
+    color: white;
+}
+
+
+#body {
+    width: 1500px;
+    float: left;
+}
+#event {
+    width: 1500px;
+    height: 340px;
+    float: left;
+}
+#event_imgs {
+    width: 1200px;
+    height: 300px;
+    margin: 20px auto;
+}
+/*
+.slideshow {
+    overflow: hidden;
+    position: relative;
+    min-width: 1200px;
+    height: 300px;
+    background-color: rebeccapurple;
+}
+.slideshow img {
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+}
+*/
+#event_img2 {
+    display: none;
+}
+#new {
+    width: 1500px;
+    height: 640px;
+    float: left;
+}
+#newtext {
+    width: 1300px;
+    margin: 10px auto;
+    font-size: 20pt;
+    font-family:'Times New Roman', Times, serif;
+}
+#main_imgs {
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    border: solid black 3px;
+}
+.geshimull {
+    width: 1300px;
+    height: 480px;
+}
+.main_case {
+    width: 400px;
+    height: 460px;
+    float: left;
+    margin: 10px 16px;
+}
+.img_case {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+.text {
+    float: left;
+    width: 400px;
+    height: 80px;
+    font-size: 15pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 60px;
+}
+.a img {
+    transition: all 0.2s linear;
+}
+.a:hover img {
+    transform: scale(1.3); /* image 크기 증가 */
+}
+#rands {
+    width: 1500px;
+    height: 700px;
+    float: left;
+}
+#randstext {
+    width: 1300px;
+    margin: 10px auto;
+    font-size: 20pt;
+    font-family:'Times New Roman', Times, serif;
+}
+#rank {
+    width: 1300px;
+    height: 500px;
+    margin: 30px auto;
+    border: 3px black solid;
+}
+.rank_case {
+    width: 400px;
+    height: 460px;
+    float: left;
+    margin: 20px 16px;
+}
+.rank_text {
+    width: 400px;
+    height: 60px;
+    font-size: 15pt;
+    line-height: 30px;
+}
+#top {
+    width: 1500px;
+    height: 150px;
+    float: left;
+}
+#top > div {
+    width: 80px;
+    height: 50px;
+    margin: 0px auto;
+}
+#top button {
+    width: 80px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    background-color: black;
+    color: white;
+}
+button a {
+    display: block;
+    width: 80px;
+    height: 50px;
+    color: white;
+    font-size: 14pt;
+}
+
+#footer {
+    float: left;
+    width: 1500px;
+    height: 100px;
+}
+#insta {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+}
+#instaimga {
+    width: 80px;
+    height: 50px;
+    float: left;
+}
+#insta img {
+    margin: 10px 10px;
+}
+#discord {
+    margin: 0;
+    width : 100px;
+    height: 100px;
+}
+#discord img {
+    margin: 10px 10px;
+}
+.footerText {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 650px;
+    height: 100px;
+    font-size: 14px;
+    line-height: 20px;
+}
+#footerText p {
+    position: relative;
+    left: 30px;
+}
+
+
+hr {
+    background-color: black;
+    height: 3px;
+    border-style: none;
+    float: none;
+    line-height: 300px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.relative {
+    position: relative;
+}
+.left {
+    float: left;
+}
+li {
+    list-style-type: none;
+}

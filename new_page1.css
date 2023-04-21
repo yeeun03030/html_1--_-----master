@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#abody {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+
+#header {
+    width: 1500px;
+    height: 210px;
+}
+#set {
+    width: 255px;
+    height: 30px;
+    text-align : right;
+    float: right;
+}
+#set li {
+    width: 85px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+#log {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 75px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+#my_page { 
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+#setting {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 85px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+#logo {
+    width: 1500px;
+    height: 100px;
+    float: left;
+    margin: 20px 0 20px 0;
+}
+#logo > div {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+
+#body {
+    width: 1500px;
+    height: 930px;
+}
+.img {
+    margin: 100px 30px;
+    float: left;
+    width: 720px;
+    height: 720px;
+    background-color: black;
+    border: none;
+    border-radius: 10%;
+}
+.img > img {
+    margin: 10px 10px;
+
+    border: none;
+    border-radius: 9%;
+}
+.text {
+    width: 660px;
+    height: 720px;
+    float: left;
+    margin: 100px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#head_text {
+    font-size: 18pt;
+    width: 650px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 0 0 10px;
+}
+#test {
+    width: 640px;
+    height: 100px;
+    margin: 30px 10px;
+    font-size: 17pt;
+}
+#print {
+    width: 600px;
+    border: 5px solid black;
+    margin: 30px 20px;
+    border-radius: 5px 5px;
+}
+#print > p {
+    margin: 15px 15px;
+    font-size: 12pt;
+}
+#input {
+    width: 600px;
+    border: 5px solid black;
+    margin: 30px 20px;
+    border-radius: 5px 5px;
+}
+#input > p {
+    margin: 15px 15px;
+    font-size: 12pt;
+}
+.result {
+    font-size: 15pt;
+}
+#buttons {
+    width: 660px;
+    height: 50px;
+}
+#buttons div {
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+}
+#buttons button {
+    width: 120px;
+    height: 50px;
+    font-size: 16pt;
+    line-height: 50px;
+    margin: 0 15px;
+    border: none;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    background-color: rosybrown;
+    border-radius: 10px 10px;
+}
+button:active {
+    color: white;
+}
+
+
+#footer {
+    width: 1500px;
+    height: 100px;
+    margin: 0 auto;
+}
+#insta {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+}
+#instaimga {
+    width: 80px;
+    height: 50px;
+    float: left;
+}
+#insta img {
+    margin: 10px 10px;
+}
+#discord {
+    margin: 0;
+    width : 100px;
+    height: 100px;
+}
+#discord img {
+    margin: 10px 10px;
+}
+.footerText {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 650px;
+    height: 100px;
+    font-size: 14px;
+    line-height: 20px;
+}
+#footerText p {
+    position: relative;
+    left: 30px;
+}
+
+
+hr {
+    background-color: black;
+    height: 3px;
+    border-style: none;
+    float: none;
+    line-height: 300px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.relative {
+    position: relative;
+}
+.left {
+    float: left;
+}
+li {
+    list-style-type: none;
+}
