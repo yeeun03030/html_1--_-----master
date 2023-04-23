@@ -130,7 +130,7 @@ select {
     width: 1040px;
     height: 250px;
     margin: 0 auto;
-    overflow: scroll;
+    overflow-y: scroll;
     background-color: rosybrown;
     border: solid rosybrown 8px;
 }
